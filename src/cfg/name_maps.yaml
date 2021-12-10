@@ -1,0 +1,8 @@
+name_map: 
+  Episode/rew_style: Style Reward $r_{style}$
+
+white_list:
+  - Episode/rew_style
+
+black_list:
+  - Episode/rew_collision
