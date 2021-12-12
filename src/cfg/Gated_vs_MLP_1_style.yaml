@@ -1,0 +1,22 @@
+plot:
+  title: MLP VS GatedNN 1 style
+  legend:
+   - MLP
+   - GatedNN
+  files:
+   -  /home/eric/msc/legged_ws/legged_gym/logs/repro/Dec12_15-24-08_stand_walk_1_style_stand_mlp/events.out.tfevents.1639319049.pc.28691.0
+   -  /home/eric/msc/legged_ws/legged_gym/logs/repro/Dec12_12-16-39_stand_walk_1_style_stand/events.out.tfevents.1639307800.pc.17997.0
+  subplot:
+    rows: 3
+    cols: 3
+
+white_list:
+  - Episode/rew_sit_down
+  - Episode/rew_stand_up
+  - Episode/rew_tracking_ang_vel_s
+  - Episode/rew_tracking_lin_vel_s
+  - Episode/terrain_level
+  - Episode/terrain_level_best
+  - Episode/max_stand_dur
+  - Episode/num_cmd_standing
+  - Train/mean_reward

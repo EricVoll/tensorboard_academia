@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MLP vs Gated 2 styles",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/eric/msc/thesis/tensorboard_academia/src/tensorboard_plot.py",
+            "console": "integratedTerminal",
+            "args": ["--cfg", "cfg/Gated_vs_MLP_2_styles.yaml"]
+        },
+        {
+            "name": "MLP vs Gated 1 style",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/eric/msc/thesis/tensorboard_academia/src/tensorboard_plot.py",
+            "console": "integratedTerminal",
+            "args": ["--cfg", "cfg/Gated_vs_MLP_1_style.yaml"]
+        }
+    ]
+}

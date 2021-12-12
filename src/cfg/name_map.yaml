@@ -1,0 +1,18 @@
+name_map: 
+  Episode/max_stand_dur: max stand duration
+  Episode/avg_stand_dur: max stand duration
+  Episode/avg_sit_dur: avg sitting duration
+  Episode/num_cmd_sitting: num of robots commanded to sit
+  Episode/num_cmd_standing: num of robots commanded to stand
+  Episode/num_goal_reached: num of ducking robots that reached the goal
+  Episode/rew_sit_down: $r_{sit}$
+  Episode/rew_stand_up: $r_{stand}$
+  Episode/rew_style: $r_{style}$
+  Episode/terrain_level: avg terrain level
+  Episode/terrain_level_best: max terrain level
+  Episode/rew_tracking_ang_vel: $r_{track~ang~vel}$
+  Episode/rew_tracking_lin_vel: $r_{track~lin~vel}$
+  Episode/rew_tracking_ang_vel_s: $r_{stand~track~ang~vel}$
+  Episode/rew_tracking_lin_vel_s: $r_{stand~track~lin~vel}$
+  Train/mean_episode_length: Mean Episode Length
+  Train/mean_reward: $r_{total}$
